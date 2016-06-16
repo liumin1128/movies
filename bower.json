@@ -1,0 +1,21 @@
+{
+  "name": "movies",
+  "authors": [
+    "liumin1128 <970568830@qq.com>"
+  ],
+  "description": "a test",
+  "main": "",
+  "license": "MIT",
+  "homepage": "liumin.win",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

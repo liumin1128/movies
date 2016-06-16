@@ -1,0 +1,14 @@
+.container-fuild
+    .row
+        nav.navbar.navbar-default.navbar-static-top(role="navigation")
+            div.navbar-header
+                button.navbar-toggle(type="button",data-toggle="collapse",data-target="#bs-example-navbar-collapse-1")
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a.navbar-brand(href="/") #{title}
+            .collapse.navbar-collapse#bs-example-navbar-collapse-1
+                ul.nav.navbar-nav
+                    li: a(href="/admin/movie") 新增
+                    li: a(href="/admin/list") 列表
